@@ -22,12 +22,12 @@ const registerUser = async(req,res)=>{
             await user.save();
         if(user){            
             const message = 
-            `Welcome to ShopNest, ${name}!!...
+            `Welcome to Wolf-ShoppingBasket, ${name}!!...
             Thank You for registering with us. We are excited to have you as part of our community.
             To complete your registration enter the following OTP...  
-            Your OTP for ShopNest is: ${otp}`;
+            Your OTP for Wolf-ShoppingBasket is: ${otp}`;
 
-            await sendEmail(email, 'Welcome to ShopNest - Your OTP for Registration',message);
+            await sendEmail(email, 'Welcome to Wolf-ShoppingBasket - Your OTP for Registration',message);
 
             res.status(201).json({
                 _id: user._id,

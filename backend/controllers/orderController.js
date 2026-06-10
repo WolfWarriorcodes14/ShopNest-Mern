@@ -27,7 +27,7 @@ const createOrder = async (req, res) => {
 
         Thank you for shopping with us!
         Best regards,
-        ShopNest Team`;
+        Wolf-ShoppingBasket Team`;
         const createdOrder = await order.save();
         await sendMail(req.user.email, "Your order has been placed successfully!", message);
         res.status(201).json(createdOrder);

@@ -76,7 +76,7 @@ const productData = [
 const userData = [
     {
         name: "Admin User",
-        email: "admin@shopnest.com",
+        email: "admin@wolf-shoppong-basket.com",
         password: "admin123",
         role: "admin",
         verified: true
@@ -192,7 +192,7 @@ const seedData = async () => {
         console.log(`Products: ${createdProducts.length}`);
         console.log(`Orders: ${orders.length}`);
         console.log("Login examples:");
-        console.log("Admin: admin@shopnest.com / admin123");
+        console.log("Admin: admin@wolf-shoppong-basket.com / admin123");
         console.log("User: rahul@example.com / user123");
         console.log("User: priya@example.com / user123");
     } catch (error) {
