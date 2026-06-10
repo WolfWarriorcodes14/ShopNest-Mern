@@ -1,6 +1,6 @@
 /* Hero Banner */
 .hero-banner {
-  background: radial-gradient(circle at top right, rgba(249, 115, 22, 0.2), transparent 60%), linear-gradient(135deg, #18181b 0%, #09090b 100%);
+  background: radial-gradient(circle at top right, rgba(59, 130, 246, 0.2), transparent 60%), linear-gradient(135deg, #18181b 0%, #09090b 100%);
   color: white;
   padding: 100px 30px;
   text-align: center;
@@ -45,7 +45,7 @@
 
 .product-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.5), 0 0 0 1px rgba(249, 115, 22, 0.3);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.5), 0 0 0 1px rgba(59, 130, 246, 0.3);
 }
 
 .product-image {
@@ -83,7 +83,7 @@
 .price {
   font-size: 22px;
   font-weight: 700;
-  color: #f97316;
+  color: #3b82f6;
   margin-bottom: 15px;
 }
 
@@ -103,8 +103,8 @@
 }
 
 .search-bar:focus {
-  border-color: #f97316;
-  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
 /* Detail Page */
@@ -138,7 +138,7 @@
 
 .detail-price {
   font-size: 2rem;
-  color: #f97316;
+  color: #3b82f6;
   font-weight: 700;
   margin-bottom: 25px;
 }

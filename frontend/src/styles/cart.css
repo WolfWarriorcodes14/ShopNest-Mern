@@ -29,7 +29,7 @@
 
 .cart-item:hover {
   transform: translateX(5px);
-  border-color: rgba(249, 115, 22, 0.2);
+  border-color: rgba(59, 130, 246, 0.2);
 }
 
 .cart-item-image {
@@ -71,8 +71,8 @@
 }
 
 .qty-controls button:hover {
-  background: #f97316;
-  border-color: #f97316;
+  background: #3b82f6;
+  border-color: #3b82f6;
 }
 
 .qty-controls span {
@@ -150,7 +150,7 @@
 }
 
 .shipping-form input:focus {
-  border-color: #f97316;
+  border-color: #3b82f6;
 }
 
 .checkout-summary {
@@ -163,7 +163,7 @@
 .checkout-summary h4 {
   font-size: 1.5rem;
   margin-bottom: 20px;
-  color: #f97316;
+  color: #3b82f6;
 }
 
 @media (max-width: 768px) {

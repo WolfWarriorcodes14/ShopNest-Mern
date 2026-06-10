@@ -18,7 +18,7 @@ const AdminUsers = () => {
 
   return (
     <div style={containerStyle}>
-      <h2 style={{ color: '#f97316', marginBottom: '20px' }}>User Directory</h2>
+      <h2 style={{ color: '#3b82f6', marginBottom: '20px' }}>User Directory</h2>
       <div style={{ overflowX: 'auto' }}>
         <table style={tableStyle}>
           <thead>
@@ -37,7 +37,7 @@ const AdminUsers = () => {
                 <td style={tdStyle}>{u.name}</td>
                 <td style={tdStyle}>{u.email}</td>
                 <td style={tdStyle}>
-                  <span style={{ background: u.role === 'admin' ? 'rgba(234,88,12,0.2)' : 'rgba(16,185,129,0.2)', color: u.role === 'admin' ? '#f97316' : '#10b981', padding: '4px 8px', borderRadius: '4px', fontSize: '0.85rem', fontWeight: 'bold' }}>
+                  <span style={{ background: u.role === 'admin' ? 'rgba(59,130,246,0.2)' : 'rgba(16,185,129,0.2)', color: u.role === 'admin' ? '#3b82f6' : '#10b981', padding: '4px 8px', borderRadius: '4px', fontSize: '0.85rem', fontWeight: 'bold' }}>
                     {u.role.toUpperCase()}
                   </span>
                 </td>

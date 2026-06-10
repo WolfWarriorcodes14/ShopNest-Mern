@@ -91,7 +91,7 @@ const Checkout = () => {
           contact: '9999999999'
         },
         theme: {
-          color: '#f97316'
+          color: '#3b82f6'
         }
       };
       

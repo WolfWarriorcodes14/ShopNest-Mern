@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-brand">
         <Link to="/">
-          <img src="/dp.png" alt="Wolf-ShoppingBasket" style={{ height: '36px', width: '36px', borderRadius: '8px', objectFit: 'cover', filter: 'drop-shadow(0 2px 8px rgba(249, 115, 22, 0.35))' }} />
+          <img src="/dp.png" alt="Wolf-ShoppingBasket" style={{ height: '36px', width: '36px', borderRadius: '8px', objectFit: 'cover', filter: 'drop-shadow(0 2px 8px rgba(59, 130, 246, 0.35))' }} />
           Wolf-ShoppingBasket
         </Link>
       </div>

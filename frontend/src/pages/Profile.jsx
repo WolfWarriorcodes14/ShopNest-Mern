@@ -44,7 +44,7 @@ const Profile = () => {
   };
 
   const containerStyle = { maxWidth: '1000px', margin: '40px auto', padding: '30px', background: '#18181b', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)', color: '#fafafa' };
-  const badgeStyle = { background: 'rgba(249,115,22,0.1)', color: '#f97316', padding: '6px 12px', borderRadius: '8px', fontSize: '0.9rem', fontWeight: 'bold', display: 'inline-block' };
+  const badgeStyle = { background: 'rgba(59,130,246,0.1)', color: '#3b82f6', padding: '6px 12px', borderRadius: '8px', fontSize: '0.9rem', fontWeight: 'bold', display: 'inline-block' };
 
   if (!user) return null;
 
@@ -60,7 +60,7 @@ const Profile = () => {
         <button onClick={handleLogout} className="btn" style={{ background: '#ef4444', boxShadow: 'none' }}>Logout</button>
       </div>
 
-      <h3 style={{ color: '#f97316', marginBottom: '20px', fontSize: '1.5rem' }}>Order History</h3>
+      <h3 style={{ color: '#3b82f6', marginBottom: '20px', fontSize: '1.5rem' }}>Order History</h3>
       {loading ? (
         <p style={{ color: '#a1a1aa' }}>Fetching your orders...</p>
       ) : orders.length === 0 ? (

@@ -30,7 +30,7 @@ const AdminProducts = () => {
   return (
     <div style={containerStyle}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
-        <h2 style={{ color: '#f97316' }}>Manage Products</h2>
+        <h2 style={{ color: '#3b82f6' }}>Manage Products</h2>
         <Link to="/admin/add-product" className="btn">+ Add Product</Link>
       </div>
 

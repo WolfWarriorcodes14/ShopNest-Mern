@@ -29,7 +29,7 @@ const AdminOrders = () => {
 
   return (
     <div style={containerStyle}>
-      <h2 style={{ color: '#f97316', marginBottom: '20px' }}>Manage Orders</h2>
+      <h2 style={{ color: '#3b82f6', marginBottom: '20px' }}>Manage Orders</h2>
       <div style={{ overflowX: 'auto' }}>
         <table style={tableStyle}>
           <thead>

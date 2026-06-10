@@ -29,10 +29,10 @@ const About = () => {
       <img
         src="/dp.png"
         alt="WolfWarriorcodes14"
-        style={{ width: '180px', height: '180px', borderRadius: '50%', objectFit: 'cover', border: '4px solid #f97316', marginBottom: '20px', boxShadow: '0 4px 20px rgba(249, 115, 22, 0.4)' }}
+        style={{ width: '180px', height: '180px', borderRadius: '50%', objectFit: 'cover', border: '4px solid #3b82f6', marginBottom: '20px', boxShadow: '0 4px 20px rgba(59, 130, 246, 0.4)' }}
       />
       <h2 style={{ fontSize: '2.5rem', marginBottom: '10px', color: '#fff' }}>About Me</h2>
-      <h3 style={{ fontSize: '1.5rem', color: '#f97316', marginBottom: '15px' }}>WolfWarriorcodes14</h3>
+      <h3 style={{ fontSize: '1.5rem', color: '#3b82f6', marginBottom: '15px' }}>WolfWarriorcodes14</h3>
 
       <p style={{ color: '#a1a1aa', fontSize: '1.2rem', lineHeight: '1.8', maxWidth: '600px', margin: '0 auto 30px auto' }}>
         Information Technology student exploring web development, mobile applications, and modern software technologies.

@@ -38,7 +38,7 @@ const ProductDetail = () => {
     }
   };
 
-  if (loading) return <div style={{ textAlign: 'center', margin: '100px', color: '#f97316' }}>Loading Product...</div>;
+  if (loading) return <div style={{ textAlign: 'center', margin: '100px', color: '#3b82f6' }}>Loading Product...</div>;
   if (!product) return <div style={{ textAlign: 'center', margin: '100px', color: '#ef4444' }}>Product Not Found</div>;
 
   return (
@@ -46,7 +46,7 @@ const ProductDetail = () => {
       
       {/* Breadcrumb Navigation */}
       <div style={{ color: '#a1a1aa', marginBottom: '20px', fontSize: '0.95rem' }}>
-        <Link to="/" style={{ color: '#f97316' }}>Home</Link> / <Link to="/shop" style={{ color: '#f97316' }}>Shop</Link> / {product.category} / <span style={{ color: '#fff' }}>{product.name}</span>
+        <Link to="/" style={{ color: '#3b82f6' }}>Home</Link> / <Link to="/shop" style={{ color: '#3b82f6' }}>Shop</Link> / {product.category} / <span style={{ color: '#fff' }}>{product.name}</span>
       </div>
 
       <div className="product-detail">

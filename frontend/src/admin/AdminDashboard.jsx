@@ -50,13 +50,13 @@ const AdminDashboard = () => {
   const numberStyle = {
     fontSize: '2.5rem',
     fontWeight: '700',
-    color: '#f97316'
+    color: '#3b82f6'
   };
 
   return (
     <div style={{ padding: '20px', maxWidth: '1000px', margin: '0 auto' }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '15px', marginBottom: '5px' }}>
-        <img src="/dp.png" alt="Logo" style={{ height: '40px', width: '40px', borderRadius: '8px', objectFit: 'cover', filter: 'drop-shadow(0 0px 10px rgba(249, 115, 22, 0.3))' }} />
+        <img src="/dp.png" alt="Logo" style={{ height: '40px', width: '40px', borderRadius: '8px', objectFit: 'cover', filter: 'drop-shadow(0 0px 10px rgba(59, 130, 246, 0.3))' }} />
         <h2 style={{ margin: 0 }}>Admin Dashboard</h2>
       </div>
       <p style={{ color: '#a1a1aa', marginBottom: '30px', fontSize: '1.1rem' }}>Welcome back, <span style={{color: '#fff'}}>{user?.name}</span></p>
@@ -81,11 +81,11 @@ const AdminDashboard = () => {
           </div>
         </div>
       ) : (
-        <div style={{ textAlign: 'center', margin: '50px 0', color: '#f97316' }}>Loading metrics...</div>
+        <div style={{ textAlign: 'center', margin: '50px 0', color: '#3b82f6' }}>Loading metrics...</div>
       )}
 
       <div style={{ marginTop: '40px', padding: '30px', background: '#18181b', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)' }}>
-        <h3 style={{ marginBottom: '25px', color: '#f97316' }}>Administrative Controls</h3>
+        <h3 style={{ marginBottom: '25px', color: '#3b82f6' }}>Administrative Controls</h3>
         <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
           <button className="btn" onClick={() => navigate('/admin/add-product')}>+ Add Product</button>
           <button className="btn" onClick={() => navigate('/admin/products')} style={{ background: '#3f3f46' }}>📦 Manage Products</button>
