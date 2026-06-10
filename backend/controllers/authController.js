@@ -47,7 +47,7 @@ const registerUser = async(req,res)=>{
         const {email, password} = req.body;
         try{
             const user = await User.findOne({email});
-            if (user && !user.verified) {
+            if (user && !user.verified && user.role !== 'admin') {
                 return res.status(401).json({ message: "Please verify your email first" });
             }
             if(user && (await bcrypt.compare(password, user.password))){
