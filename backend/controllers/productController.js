@@ -2,10 +2,29 @@ const productModel = require("../model/Product");
 const cloudinary = require("../config/cloudinary"); 
 
 
-//get all products
+//get all products with filters
 const getProducts = async(req,res) => {
     try{
-        const products = await productModel.find({});
+        const { category, minPrice, maxPrice } = req.query;
+        let filter = {};
+
+        // Add category filter if provided
+        if(category && category !== 'all') {
+            filter.category = category;
+        }
+
+        // Add price range filter if provided
+        if(minPrice || maxPrice) {
+            filter.price = {};
+            if(minPrice) {
+                filter.price.$gte = Number(minPrice);
+            }
+            if(maxPrice) {
+                filter.price.$lte = Number(maxPrice);
+            }
+        }
+
+        const products = await productModel.find(filter);
         res.json(products);
     }
     catch(error){
