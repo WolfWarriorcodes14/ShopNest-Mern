@@ -70,7 +70,127 @@ const productData = [
         imageUrl: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
         ratings: 4.3,
         numReviews: 16
-    }
+    },
+    {
+    name: "Gaming Mouse",
+    description: "RGB gaming mouse with adjustable DPI and ergonomic design.",
+    price: 1499,
+    category: "Electronics",
+    stock: 35,
+    imageUrl: "https://images.unsplash.com/photo-1527814050087-3793815479db?w=800",
+    ratings: 4.6,
+    numReviews: 28
+},
+{
+    name: "Mechanical Keyboard",
+    description: "Blue switch mechanical keyboard with RGB lighting.",
+    price: 2999,
+    category: "Electronics",
+    stock: 20,
+    imageUrl: "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800",
+    ratings: 4.7,
+    numReviews: 41
+},
+{
+    name: "Wireless Earbuds",
+    description: "Noise-isolating earbuds with fast charging support.",
+    price: 1999,
+    category: "Electronics",
+    stock: 45,
+    imageUrl: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800",
+    ratings: 4.4,
+    numReviews: 33
+},
+{
+    name: "Office Chair",
+    description: "Ergonomic office chair with lumbar support.",
+    price: 6999,
+    category: "Furniture",
+    stock: 12,
+    imageUrl: "https://images.unsplash.com/photo-1505843513577-22bb7d21e455?w=800",
+    ratings: 4.5,
+    numReviews: 19
+},
+{
+    name: "Study Table",
+    description: "Modern wooden study table suitable for home office.",
+    price: 4999,
+    category: "Furniture",
+    stock: 10,
+    imageUrl: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=800",
+    ratings: 4.2,
+    numReviews: 14
+},
+{
+    name: "Samsung Galaxy M35",
+    description: "5G smartphone with AMOLED display and long battery life.",
+    price: 18999,
+    category: "Mobiles",
+    stock: 15,
+    imageUrl: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800",
+    ratings: 4.6,
+    numReviews: 52
+},
+{
+    name: "Apple iPhone 15",
+    description: "Powerful smartphone with advanced camera system.",
+    price: 69999,
+    category: "Mobiles",
+    stock: 8,
+    imageUrl: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=800",
+    ratings: 4.8,
+    numReviews: 89
+},
+{
+    name: "Dell Inspiron Laptop",
+    description: "15.6-inch laptop with Intel processor and SSD storage.",
+    price: 54999,
+    category: "Computers",
+    stock: 10,
+    imageUrl: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800",
+    ratings: 4.5,
+    numReviews: 25
+},
+{
+    name: "Water Bottle",
+    description: "Stainless steel insulated water bottle.",
+    price: 499,
+    category: "Home",
+    stock: 100,
+    imageUrl: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800",
+    ratings: 4.3,
+    numReviews: 17
+},
+{
+    name: "Bluetooth Speaker",
+    description: "Portable Bluetooth speaker with powerful sound.",
+    price: 2499,
+    category: "Electronics",
+    stock: 30,
+    imageUrl: "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=800",
+    ratings: 4.4,
+    numReviews: 22
+},
+{
+    name: "Men's Denim Jacket",
+    description: "Stylish slim-fit denim jacket for casual wear.",
+    price: 1799,
+    category: "Fashion",
+    stock: 25,
+    imageUrl: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=800",
+    ratings: 4.3,
+    numReviews: 31
+},
+{
+    name: "Women's Handbag",
+    description: "Premium handbag with spacious compartments.",
+    price: 2199,
+    category: "Fashion",
+    stock: 22,
+    imageUrl: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800",
+    ratings: 4.5,
+    numReviews: 29
+}
 ];
 
 const userData = [
