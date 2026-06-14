@@ -190,6 +190,246 @@ const productData = [
     imageUrl: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800",
     ratings: 4.5,
     numReviews: 29
+},
+{
+    name: "HP Pavilion Laptop",
+    description: "14-inch laptop with Ryzen processor and SSD storage.",
+    price: 48999,
+    category: "Computers",
+    stock: 12,
+    imageUrl: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800",
+    ratings: 4.4,
+    numReviews: 27
+},
+{
+    name: "Lenovo IdeaPad Slim 3",
+    description: "Thin and light laptop for students and professionals.",
+    price: 42999,
+    category: "Computers",
+    stock: 14,
+    imageUrl: "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?w=800",
+    ratings: 4.3,
+    numReviews: 31
+},
+{
+    name: "ASUS Gaming Laptop",
+    description: "High-performance gaming laptop with dedicated graphics.",
+    price: 74999,
+    category: "Computers",
+    stock: 8,
+    imageUrl: "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800",
+    ratings: 4.7,
+    numReviews: 45
+},
+{
+    name: "Apple MacBook Air M2",
+    description: "Ultra-thin laptop powered by Apple M2 chip.",
+    price: 94999,
+    category: "Computers",
+    stock: 6,
+    imageUrl: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800",
+    ratings: 4.9,
+    numReviews: 72
+},
+{
+    name: "Realme Narzo 70",
+    description: "Affordable 5G smartphone with AMOLED display.",
+    price: 15999,
+    category: "Mobiles",
+    stock: 18,
+    imageUrl: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800",
+    ratings: 4.4,
+    numReviews: 37
+},
+{
+    name: "OnePlus Nord CE 4",
+    description: "Smooth performance smartphone with fast charging.",
+    price: 24999,
+    category: "Mobiles",
+    stock: 16,
+    imageUrl: "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=800",
+    ratings: 4.6,
+    numReviews: 54
+},
+{
+    name: "Nothing Phone 2a",
+    description: "Stylish smartphone with unique transparent design.",
+    price: 27999,
+    category: "Mobiles",
+    stock: 12,
+    imageUrl: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800",
+    ratings: 4.5,
+    numReviews: 41
+},
+{
+    name: "Puma Running Shoes",
+    description: "Comfortable sports shoes for everyday running.",
+    price: 2799,
+    category: "Footwear",
+    stock: 24,
+    imageUrl: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800",
+    ratings: 4.4,
+    numReviews: 26
+},
+{
+    name: "Nike Air Max",
+    description: "Premium lifestyle sneakers with air cushioning.",
+    price: 6999,
+    category: "Footwear",
+    stock: 15,
+    imageUrl: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800",
+    ratings: 4.8,
+    numReviews: 67
+},
+{
+    name: "Adidas Ultraboost",
+    description: "Lightweight shoes with responsive cushioning.",
+    price: 8499,
+    category: "Footwear",
+    stock: 11,
+    imageUrl: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800",
+    ratings: 4.7,
+    numReviews: 58
+},
+{
+    name: "Leather Wallet",
+    description: "Premium genuine leather wallet with multiple slots.",
+    price: 799,
+    category: "Fashion",
+    stock: 50,
+    imageUrl: "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800",
+    ratings: 4.3,
+    numReviews: 18
+},
+{
+    name: "Men's Casual Shirt",
+    description: "Comfortable cotton casual shirt for daily wear.",
+    price: 1199,
+    category: "Fashion",
+    stock: 40,
+    imageUrl: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800",
+    ratings: 4.2,
+    numReviews: 22
+},
+{
+    name: "Women's Kurti",
+    description: "Traditional printed kurti with elegant design.",
+    price: 999,
+    category: "Fashion",
+    stock: 35,
+    imageUrl: "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=800",
+    ratings: 4.4,
+    numReviews: 31
+},
+{
+    name: "Smart LED TV 43 Inch",
+    description: "Full HD Smart TV with streaming apps support.",
+    price: 25999,
+    category: "Electronics",
+    stock: 9,
+    imageUrl: "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800",
+    ratings: 4.5,
+    numReviews: 39
+},
+{
+    name: "Power Bank 20000mAh",
+    description: "Fast charging power bank with dual USB output.",
+    price: 1499,
+    category: "Electronics",
+    stock: 42,
+    imageUrl: "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=800",
+    ratings: 4.3,
+    numReviews: 25
+},
+{
+    name: "USB-C Fast Charger",
+    description: "65W fast charger compatible with phones and laptops.",
+    price: 999,
+    category: "Electronics",
+    stock: 60,
+    imageUrl: "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800",
+    ratings: 4.4,
+    numReviews: 20
+},
+{
+    name: "Smart LED Bulb",
+    description: "WiFi-enabled smart bulb with color control.",
+    price: 699,
+    category: "Home",
+    stock: 55,
+    imageUrl: "https://images.unsplash.com/photo-1513467655676-561b7d489a88?w=800",
+    ratings: 4.2,
+    numReviews: 16
+},
+{
+    name: "Wall Clock",
+    description: "Modern silent wall clock for home and office.",
+    price: 899,
+    category: "Home",
+    stock: 30,
+    imageUrl: "https://images.unsplash.com/photo-1563865436914-44ee14a35e66?w=800",
+    ratings: 4.3,
+    numReviews: 19
+},
+{
+    name: "Dining Table Set",
+    description: "Wooden dining table set with four chairs.",
+    price: 15999,
+    category: "Furniture",
+    stock: 5,
+    imageUrl: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800",
+    ratings: 4.5,
+    numReviews: 14
+},
+{
+    name: "Wooden Bookshelf",
+    description: "Five-tier bookshelf for books and decor.",
+    price: 4999,
+    category: "Furniture",
+    stock: 8,
+    imageUrl: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800",
+    ratings: 4.3,
+    numReviews: 12
+},
+{
+    name: "Travel Duffel Bag",
+    description: "Large capacity duffel bag for travel and gym.",
+    price: 1499,
+    category: "Bags",
+    stock: 26,
+    imageUrl: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+    ratings: 4.2,
+    numReviews: 18
+},
+{
+    name: "Trolley Suitcase",
+    description: "Hard-shell suitcase with smooth wheels.",
+    price: 3999,
+    category: "Bags",
+    stock: 14,
+    imageUrl: "https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?w=800",
+    ratings: 4.4,
+    numReviews: 23
+},
+{
+    name: "Noise Smartwatch",
+    description: "Smartwatch with health tracking and Bluetooth calling.",
+    price: 2999,
+    category: "Wearables",
+    stock: 20,
+    imageUrl: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800",
+    ratings: 4.3,
+    numReviews: 34
+},
+{
+    name: "Boat Smart Ring",
+    description: "Smart wearable ring for activity tracking.",
+    price: 5499,
+    category: "Wearables",
+    stock: 12,
+    imageUrl: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800",
+    ratings: 4.1,
+    numReviews: 11
 }
 ];
 
