@@ -2,6 +2,10 @@ const nodemailer = require("nodemailer");
 
 const sendEmail = async (to, subject, text) => {
     try {
+        console.log("BREVO_USER:", process.env.BREVO_USER);
+        console.log("EMAIL_USER:", process.env.EMAIL_USER);
+        console.log("BREVO_PASS exists:", !!process.env.BREVO_PASS);
+
         const transporter = nodemailer.createTransport({
             host: "smtp-relay.brevo.com",
             port: 587,
@@ -11,6 +15,10 @@ const sendEmail = async (to, subject, text) => {
                 pass: process.env.BREVO_PASS
             }
         });
+
+        console.log("Verifying SMTP...");
+        await transporter.verify();
+        console.log("SMTP VERIFIED");
 
         const mailOptions = {
             from: process.env.EMAIL_USER,
@@ -28,4 +36,4 @@ const sendEmail = async (to, subject, text) => {
     }
 };
 
-module.exports = sendEmail; 
+module.exports = sendEmail;
